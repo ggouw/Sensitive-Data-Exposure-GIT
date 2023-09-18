@@ -35,13 +35,22 @@ But in the beginning when we ran dirsearch to our url target, we have found db.s
 The next step for this is to try open the url in our browser\
 https://localhost:2222/dirsearch/db.sql
 
-![11](https://github.com/ggouw/Sensitive-Data-Exposure-GIT/assets/120260071/d3ca911a-7bed-4f66-adcf-c56d26c794ac)
+![13](https://github.com/ggouw/Sensitive-Data-Exposure-GIT-and-Decrypt-Password/assets/120260071/e2e6b0f1-cae1-40e5-8022-1cda3c23bf7b)\
+![14](https://github.com/ggouw/Sensitive-Data-Exposure-GIT-and-Decrypt-Password/assets/120260071/33fb30ae-0710-4788-811a-b2c263aef24c)
 
-We can decrypt md5 password using tools dcodefr.
+Then we found the list of username and password.
 
-![12](https://github.com/ggouw/Sensitive-Data-Exposure-GIT/assets/120260071/77bf8669-da41-439b-b2a9-a3ce586b7d90)
+![15](https://github.com/ggouw/Sensitive-Data-Exposure-GIT-and-Decrypt-Password/assets/120260071/b8475b0d-5149-405a-a143-d2ac6ac849a7)
 
-After decrypt, Password for Username rogers63 is 656594.
+After this we can use Has Analyzer to examine what type of data is this.
+
+![16](https://github.com/ggouw/Sensitive-Data-Exposure-GIT-and-Decrypt-Password/assets/120260071/ed6d46cf-d107-428f-a267-3115c4dee604)
+
+From here, we know that this is MD5 or MD4 type of data. We can use MD5 decrypt tools to decrypt the password.
+
+![17](https://github.com/ggouw/Sensitive-Data-Exposure-GIT-and-Decrypt-Password/assets/120260071/7bcf64d2-9f60-40cd-bdd2-ec838e72cc4f)
+
+After decrypt, Password for Username rivera92 is 791164.
 
 
 
