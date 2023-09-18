@@ -32,7 +32,7 @@ But in the beginning when we ran dirsearch to our url target, we have found db.s
 
 ![10](https://github.com/ggouw/Sensitive-Data-Exposure-GIT/assets/120260071/85feab6d-5572-46a1-b435-d7fa5b2b39f9)
 
-The next step for this is to try open the url\
+The next step for this is to try open the url in our browser\
 https://localhost:2222/dirsearch/db.sql
 
 ![11](https://github.com/ggouw/Sensitive-Data-Exposure-GIT/assets/120260071/d3ca911a-7bed-4f66-adcf-c56d26c794ac)
