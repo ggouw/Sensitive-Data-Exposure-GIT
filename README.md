@@ -1,4 +1,4 @@
-# Performing Search for Sensitive Data Exposure .GIT & decrypt password
+# Performing Search for Sensitive Data Exposure .GIT & Decrypt Password
 
 We are going to search any sensitive data .git hidden files using dirsearch and limit the search by -x 300-600.\
 -u for our target url
