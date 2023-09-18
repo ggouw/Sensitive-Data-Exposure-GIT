@@ -50,7 +50,7 @@ From here, we know that this is MD5 or MD4 type of data. We can use MD5 decrypt 
 
 ![17](https://github.com/ggouw/Sensitive-Data-Exposure-GIT-and-Decrypt-Password/assets/120260071/7bcf64d2-9f60-40cd-bdd2-ec838e72cc4f)
 
-After decrypt, Password for Username rivera92 is 791164.
+After decrypt, We found Password for Username rivera92 is 791164.
 
 
 
